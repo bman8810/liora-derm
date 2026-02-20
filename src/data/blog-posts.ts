@@ -96,6 +96,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-19",
     author: "Dr. Libby Rhee, DO, MS, FAAD",
     category: "Skin Health",
+    image: "/images/blog-glp1-face.png",
     excerpt:
       "Ozempic, Wegovy, and Mounjaro are transforming weight loss — but what are they doing to your skin? Here's what a board-certified dermatologist wants you to know about GLP-1 side effects and how to address them.",
     metaDescription:
@@ -195,6 +196,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-19",
     author: "Dr. Libby Rhee, DO, MS, FAAD",
     category: "Skincare Tips",
+    image: "/images/blog-winter-skin.png",
     excerpt:
       "Harsh winds, dry indoor heat, and plummeting temperatures can wreak havoc on your skin. Here's your complete winter skincare guide from an NYC dermatologist — plus the in-office treatments that keep your skin glowing all season.",
     metaDescription:
@@ -295,6 +297,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-19",
     author: "Dr. Libby Rhee, DO, MS, FAAD",
     category: "Skincare Tips",
+    image: "/images/blog-retinoids.png",
     excerpt:
       "Retinoids are the gold standard of anti-aging skincare — but starting them can be intimidating. Here's everything you need to know about retinol, tretinoin, and adapalene, from a board-certified dermatologist.",
     metaDescription:
