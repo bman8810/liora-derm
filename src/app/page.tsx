@@ -69,7 +69,7 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative min-h-screen flex items-center bg-cream pt-20">
+      <section className="relative min-h-screen flex items-center bg-cream pt-28 md:pt-20">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-xs tracking-[0.3em] uppercase text-gold mb-4">
@@ -139,8 +139,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative aspect-square rounded-2xl overflow-hidden">
             <Image
-              src="/images/dr-rhee-square.jpg"
-              alt="Dr. Libby Rhee"
+              src="/images/hero.jpg"
+              alt="Skincare at Liora Dermatology"
               fill
               className="object-cover"
             />
@@ -278,8 +278,43 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SkinBetter */}
+      {/* Payment Plans */}
       <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <p className="text-xs tracking-[0.3em] uppercase text-gold mb-4">
+            Treat Now, Pay Over Time
+          </p>
+          <h2 className="font-serif text-3xl text-soft-black">
+            Flexible Payment Plans
+          </h2>
+          <p className="mt-4 text-neutral-500 leading-relaxed">
+            We partner with Alle and Cherry to offer flexible payment options so
+            you can get the treatments you want on a schedule that works for
+            you.
+          </p>
+          <div className="flex justify-center gap-8 mt-8">
+            <a
+              href="https://alle.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-soft-black hover:bg-neutral-700 text-white text-sm tracking-wide uppercase px-8 py-4 rounded-full transition-colors"
+            >
+              Alle Payment Plans
+            </a>
+            <a
+              href="https://withcherry.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-neutral-300 hover:border-gold text-neutral-600 hover:text-gold text-sm tracking-wide uppercase px-8 py-4 rounded-full transition-colors"
+            >
+              Cherry Financing
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* SkinBetter */}
+      <section className="py-16 bg-cream">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <p className="text-xs tracking-[0.3em] uppercase text-gold mb-4">
             Shop
