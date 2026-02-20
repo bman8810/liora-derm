@@ -14,7 +14,7 @@ export default function BlogPage() {
   return (
     <main className="min-h-screen bg-[#FAF8F5]">
       {/* Hero */}
-      <section className="bg-[#2C2C2C] text-white py-20 px-6 text-center">
+      <section className="bg-[#2C2C2C] text-white pt-32 pb-16 px-6 text-center">
         <h1 className="font-serif text-4xl md:text-5xl mb-4">
           The Liora Journal
         </h1>

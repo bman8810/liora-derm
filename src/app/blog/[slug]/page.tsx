@@ -44,7 +44,7 @@ export default async function BlogPostPage({ params }: Props) {
   return (
     <main className="min-h-screen bg-[#FAF8F5]">
       {/* Header */}
-      <section className="bg-[#2C2C2C] text-white py-16 px-6 text-center">
+      <section className="bg-[#2C2C2C] text-white pt-32 pb-16 px-6 text-center">
         <span className="inline-block text-xs font-semibold uppercase tracking-wider text-[#C9B87C] mb-4">
           {post.category}
         </span>
