@@ -243,8 +243,12 @@ export const blogPosts: BlogPost[] = [
       <p>Adapalene is a <strong>synthetic retinoid</strong> originally developed for acne. It's now available over the counter (Differin 0.1%) and is known for being <strong>better tolerated</strong> than tretinoin while still being quite effective. It's particularly good for acne-prone skin.</p>
       <p><strong>Best for:</strong> Acne-focused treatment, patients who can't tolerate tretinoin, a step up from retinol</p>
 
-      <h3>Other Prescription Retinoids</h3>
-      <p>Tazarotene (Tazorac) is another prescription retinoid that's extremely potent — even stronger than tretinoin. There are also newer formulations like trifarotene (Aklief) designed specifically for body acne. Your dermatologist can help determine which is right for you.</p>
+      <h3>Tazarotene (Tazorac)</h3>
+      <p>Tazarotene is widely considered the <strong>most effective topical retinoid</strong> due to how selectively it binds to retinoid receptors. Contrary to what many people assume, "most effective" doesn't mean "most irritating." In fact, branded Tazorac cream — and quality compounded formulations that use a well-designed vehicle — can be <strong>more tolerable</strong> than some other retinoids while delivering superior results. It's a favorite among dermatologists for both anti-aging and acne.</p>
+      <p><strong>Best for:</strong> Patients who want the most efficacious retinoid available, especially when prescribed in a well-formulated cream vehicle</p>
+
+      <h3>Trifarotene (Aklief)</h3>
+      <p>A newer-generation retinoid designed specifically for body acne. Your dermatologist can help determine which retinoid is right for you.</p>
 
       <h2>How to Start Using Retinoids: The Smart Approach</h2>
 
