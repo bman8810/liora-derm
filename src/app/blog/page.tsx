@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
 
@@ -33,6 +34,16 @@ export default function BlogPage() {
               href={`/blog/${post.slug}`}
               className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow border border-[#E8E4DE]"
             >
+              {post.image && (
+                <div className="relative h-48 w-full">
+                  <Image
+                    src={post.image}
+                    alt={post.title}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              )}
               <div className="p-6">
                 <span className="inline-block text-xs font-semibold uppercase tracking-wider text-[#C9B87C] mb-3">
                   {post.category}

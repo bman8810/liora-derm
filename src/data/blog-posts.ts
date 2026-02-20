@@ -2,6 +2,94 @@ import { BlogPost } from "@/lib/blog";
 
 export const blogPosts: BlogPost[] = [
   {
+    title: "Spring Skin Reset: A Dermatologist's Guide to Transitioning Your Skincare Routine",
+    slug: "spring-skin-reset-guide",
+    date: "2026-02-20",
+    author: "Dr. Libby Rhee, DO, MS, FAAD",
+    category: "Skincare Tips",
+    image: "/images/blog-spring-skincare.png",
+    excerpt: "As winter fades and spring arrives in NYC, your skin needs a reset. Here's how to transition your routine, reintroduce actives, and prep for sunnier days ahead.",
+    metaDescription: "NYC dermatologist shares how to transition your skincare routine from winter to spring. Learn which products to swap, how to reintroduce actives, and spring treatment picks.",
+    keywords: ["spring skincare routine", "skincare transition", "spring dermatology", "NYC dermatologist", "seasonal skincare", "spring skin tips"],
+    content: `
+      <p>Spring in New York City is magic — the parks bloom, the patios open, and the layers come off. But while you're swapping your puffer for a trench coat, your <strong>skincare routine needs a wardrobe change too</strong>.</p>
+
+      <p>After months of heavy moisturizers and gentle routines to survive winter, your skin is ready for a reset. Here's my step-by-step guide to transitioning your skincare from winter survival mode to spring radiance.</p>
+
+      <h2>Why Your Skin Needs a Seasonal Reset</h2>
+
+      <p>Your skin responds to environmental changes more than you might think. As humidity rises and temperatures climb:</p>
+      <ul>
+        <li><strong>Sebum production increases</strong> — those rich winter creams may start feeling heavy and pore-clogging</li>
+        <li><strong>UV exposure intensifies</strong> — spring sun is deceptively strong, especially with longer daylight hours</li>
+        <li><strong>Accumulated winter damage</strong> surfaces — dullness, flakiness, and uneven tone from months of dry air</li>
+        <li><strong>Allergies and pollen</strong> can trigger skin sensitivity and inflammation</li>
+      </ul>
+
+      <h2>Step 1: Lighten Your Moisturizer</h2>
+
+      <p>That thick, occlusive winter cream that saved your skin in January? It's time to shelve it. Switch to a <strong>lightweight, gel-cream or lotion-weight moisturizer</strong> that hydrates without sitting heavy on the skin. Look for ingredients like:</p>
+      <ul>
+        <li><strong>Hyaluronic acid</strong> for lightweight hydration</li>
+        <li><strong>Niacinamide</strong> to support the skin barrier and control oil</li>
+        <li><strong>Ceramides</strong> to maintain moisture balance</li>
+      </ul>
+
+      <h2>Step 2: Exfoliate the Winter Away</h2>
+
+      <p>Winter leaves a layer of dull, dead skin cells behind. A gentle <strong>chemical exfoliant</strong> (AHA like glycolic or lactic acid) 2-3 times per week can reveal the brighter, smoother skin underneath. Start slowly if you dialed back exfoliation during winter.</p>
+
+      <p><strong>Pro tip:</strong> An in-office chemical peel in early spring is one of the best ways to reset your skin. We offer peels at various strengths — from lunchtime brightening peels to deeper treatments for hyperpigmentation and texture.</p>
+
+      <h2>Step 3: Ramp Up Your Retinoid</h2>
+
+      <p>If you reduced your retinoid frequency during winter due to dryness, spring is the time to <strong>gradually increase again</strong>. Your skin is less stressed now, and retinoids will work beautifully alongside lighter products. If you paused entirely, follow the slow introduction protocol — 2 nights per week, building up over 4-6 weeks.</p>
+
+      <h2>Step 4: Upgrade Your Sun Protection</h2>
+
+      <p>This is non-negotiable. Spring UV levels are <strong>significantly higher</strong> than most people realize — April UV in NYC can match July in many other cities. Switch to (or recommit to) a <strong>broad-spectrum SPF 30+ daily</strong>, and consider:</p>
+      <ul>
+        <li>A <strong>lighter-weight SPF</strong> that layers well under makeup</li>
+        <li><strong>Reapplying every 2 hours</strong> if you're spending time outdoors</li>
+        <li>Adding a <strong>vitamin C serum</strong> in the morning for extra antioxidant protection against UV and pollution</li>
+      </ul>
+
+      <h2>Step 5: Add Antioxidants</h2>
+
+      <p>Spring is the perfect time to incorporate a <strong>vitamin C serum</strong> if you're not already using one. Vitamin C neutralizes free radical damage from UV and pollution, brightens skin tone, and supports collagen production. Apply in the morning, under sunscreen.</p>
+
+      <h2>Spring Treatment Picks at Liora</h2>
+
+      <p>Spring is one of my favorite seasons for in-office treatments. Here's what I'm recommending to patients right now:</p>
+
+      <h3>Brightening Chemical Peels</h3>
+      <p>Shed winter dullness and even out skin tone with a customized peel. We'll match the strength and formula to your skin's needs.</p>
+
+      <h3>HydraFacial with Brightening Boost</h3>
+      <p>Deep cleansing, extraction, and hydration in one session — with a brightening or antioxidant boost to wake up winter-weary skin.</p>
+
+      <h3>Laser Treatments for Sun Damage</h3>
+      <p>If winter revealed brown spots or uneven pigmentation, early spring (while UV is still moderate) is an ideal window for laser treatments.</p>
+
+      <h3>Sofwave for Spring Tightening</h3>
+      <p>Our non-invasive ultrasound treatment stimulates collagen deep in the skin. Start now and you'll see tightening and lifting results just in time for summer.</p>
+
+      <h2>The Spring Skincare Checklist</h2>
+
+      <ul>
+        <li>☐ Swap heavy cream for lightweight moisturizer</li>
+        <li>☐ Introduce chemical exfoliant 2-3x/week</li>
+        <li>☐ Gradually increase retinoid frequency</li>
+        <li>☐ Upgrade to a lightweight daily SPF 30+</li>
+        <li>☐ Add vitamin C serum to morning routine</li>
+        <li>☐ Schedule a spring reset treatment</li>
+        <li>☐ Toss any expired products from winter</li>
+      </ul>
+
+      <p>At <strong>Liora Dermatology &amp; Aesthetics</strong>, we love helping patients transition between seasons with confidence. Whether you need a refreshed skincare plan, a professional peel, or a full spring treatment reset, <strong>book your consultation today</strong> and let's get your skin glowing for the season ahead.</p>
+    `,
+  },
+  {
     title:
       "GLP-1 Medications and Your Skin: What Dermatologists Want You to Know",
     slug: "glp1-medications-skin-effects",

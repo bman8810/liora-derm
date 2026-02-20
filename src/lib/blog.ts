@@ -8,6 +8,7 @@ export interface BlogPost {
   content: string;
   metaDescription: string;
   keywords: string[];
+  image?: string;
 }
 
 import { blogPosts } from "@/data/blog-posts";
