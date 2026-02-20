@@ -31,7 +31,7 @@ export default function BlogPage() {
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
-              className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border border-[#E8E4DE]"
+              className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow border border-[#E8E4DE]"
             >
               <div className="p-6">
                 <span className="inline-block text-xs font-semibold uppercase tracking-wider text-[#C9B87C] mb-3">
