@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPostBySlug, getAllPosts, getRelatedPosts } from "@/lib/blog";
@@ -25,6 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       publishedTime: post.date,
       authors: [post.author],
+      ...(post.image && { images: [{ url: post.image }] }),
     },
   };
 }
@@ -55,6 +57,21 @@ export default async function BlogPostPage({ params }: Props) {
           {formattedDate} &middot; {post.author}
         </p>
       </section>
+
+      {/* Hero Image */}
+      {post.image && (
+        <div className="max-w-4xl mx-auto px-6 -mt-8">
+          <div className="relative w-full aspect-[2/1] rounded-xl overflow-hidden shadow-lg">
+            <Image
+              src={post.image}
+              alt={post.title}
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+        </div>
+      )}
 
       {/* Article */}
       <article className="max-w-3xl mx-auto px-6 py-12">
@@ -132,15 +149,27 @@ export default async function BlogPostPage({ params }: Props) {
               <Link
                 key={r.slug}
                 href={`/blog/${r.slug}`}
-                className="group bg-white rounded-xl p-6 border border-[#E8E4DE] hover:shadow-md transition-shadow"
+                className="group bg-white rounded-xl overflow-hidden border border-[#E8E4DE] hover:shadow-md transition-shadow"
               >
-                <span className="text-xs font-semibold uppercase tracking-wider text-[#C9B87C]">
-                  {r.category}
-                </span>
-                <h3 className="font-serif text-lg text-[#2C2C2C] group-hover:text-[#C9B87C] transition-colors mt-2 mb-2 leading-tight">
-                  {r.title}
-                </h3>
-                <p className="text-sm text-neutral-600">{r.excerpt}</p>
+                {r.image && (
+                  <div className="relative w-full aspect-[2/1]">
+                    <Image
+                      src={r.image}
+                      alt={r.title}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                )}
+                <div className="p-6">
+                  <span className="text-xs font-semibold uppercase tracking-wider text-[#C9B87C]">
+                    {r.category}
+                  </span>
+                  <h3 className="font-serif text-lg text-[#2C2C2C] group-hover:text-[#C9B87C] transition-colors mt-2 mb-2 leading-tight">
+                    {r.title}
+                  </h3>
+                  <p className="text-sm text-neutral-600">{r.excerpt}</p>
+                </div>
               </Link>
             ))}
           </div>
