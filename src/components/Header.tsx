@@ -11,7 +11,7 @@ const services = [
   { name: "Sofwave", href: "/services/sofwave" },
   { name: "Surgical Dermatology", href: "/services/surgical" },
   { name: "Pediatric Dermatology", href: "/services/pediatric" },
-  { name: "Spa Services", href: "/services/spa" },
+  { name: "Spa Services", href: "/spa" },
 ];
 
 export default function Header() {
@@ -57,6 +57,12 @@ export default function Header() {
               </div>
             )}
           </div>
+          <Link
+            href="/spa"
+            className="text-sm tracking-wide uppercase text-[#C9B87C] hover:text-soft-black transition-colors font-semibold"
+          >
+            Spa
+          </Link>
           <Link
             href="/about"
             className="text-sm tracking-wide uppercase text-neutral-600 hover:text-soft-black transition-colors"
