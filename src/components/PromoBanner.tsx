@@ -9,9 +9,9 @@ export default function PromoBanner() {
   if (dismissed) return null;
 
   return (
-    <div className="bg-[#2C2C2C] text-white py-3 px-6 text-center relative">
+    <div id="promo-banner" className="bg-[#2C2C2C] text-white py-2.5 px-6 text-center relative z-[60]">
       <Link
-        href="/spa"
+        href="/services/spa"
         className="text-sm md:text-base hover:text-[#C9B87C] transition-colors"
       >
         <span className="text-[#C9B87C] font-semibold">March Special:</span>{" "}

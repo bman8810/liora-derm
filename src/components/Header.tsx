@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import PromoBanner from "./PromoBanner";
 
 const services = [
   { name: "Cosmetic Dermatology", href: "/services/cosmetic" },
@@ -11,7 +12,7 @@ const services = [
   { name: "Sofwave", href: "/services/sofwave" },
   { name: "Surgical Dermatology", href: "/services/surgical" },
   { name: "Pediatric Dermatology", href: "/services/pediatric" },
-  { name: "Spa Services", href: "/spa" },
+  { name: "Spa Services", href: "/services/spa" },
 ];
 
 export default function Header() {
@@ -19,7 +20,9 @@ export default function Header() {
   const [servicesOpen, setServicesOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-neutral-100">
+    <header className="fixed top-0 left-0 right-0 z-50">
+      <PromoBanner />
+      <div className="bg-white/95 backdrop-blur-sm border-b border-neutral-100">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex flex-col">
@@ -58,7 +61,7 @@ export default function Header() {
             )}
           </div>
           <Link
-            href="/spa"
+            href="/services/spa"
             className="text-sm tracking-wide uppercase text-[#C9B87C] hover:text-soft-black transition-colors font-semibold"
           >
             Spa
@@ -172,6 +175,7 @@ export default function Header() {
           </a>
         </div>
       )}
+      </div>
     </header>
   );
 }
