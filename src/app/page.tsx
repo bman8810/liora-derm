@@ -69,7 +69,7 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative min-h-screen flex items-center bg-cream pt-32 md:pt-28">
+      <section className="relative min-h-screen flex items-center bg-cream pt-44 md:pt-36">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-xs tracking-[0.3em] uppercase text-gold mb-4">
