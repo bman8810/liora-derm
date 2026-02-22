@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact | Liora Dermatology & Aesthetics",
+  title: "Contact Us — Upper East Side NYC",
   description:
     "Visit Liora Dermatology at 110 E 60th Street, Suite 800, NYC. Call 212.433.GLOW or book online.",
 };

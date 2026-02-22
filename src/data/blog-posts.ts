@@ -4,7 +4,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "Spring Skin Reset: A Dermatologist's Guide to Transitioning Your Skincare Routine",
     slug: "spring-skin-reset-guide",
-    date: "2026-02-20",
+    date: "2026-02-17",
     author: "Dr. Libby Rhee, DO, MS, FAAD",
     category: "Skincare Tips",
     image: "/images/blog-spring-skincare.png",
@@ -93,7 +93,7 @@ export const blogPosts: BlogPost[] = [
     title:
       "GLP-1 Medications and Your Skin: What Dermatologists Want You to Know",
     slug: "glp1-medications-skin-effects",
-    date: "2026-02-19",
+    date: "2026-02-03",
     author: "Dr. Libby Rhee, DO, MS, FAAD",
     category: "Skin Health",
     image: "/images/blog-glp1-face.png",
@@ -193,7 +193,7 @@ export const blogPosts: BlogPost[] = [
     title:
       "Your Winter Skin Survival Guide: A Dermatologist's Top Tips for NYC",
     slug: "winter-skin-survival-guide-nyc",
-    date: "2026-02-19",
+    date: "2026-01-20",
     author: "Dr. Libby Rhee, DO, MS, FAAD",
     category: "Skincare Tips",
     image: "/images/blog-winter-skin.png",
@@ -294,7 +294,7 @@ export const blogPosts: BlogPost[] = [
     title:
       "The Truth About Retinoids: Your Complete Guide to Getting Started",
     slug: "retinoids-complete-guide",
-    date: "2026-02-19",
+    date: "2026-01-06",
     author: "Dr. Libby Rhee, DO, MS, FAAD",
     category: "Skincare Tips",
     image: "/images/blog-retinoids.png",

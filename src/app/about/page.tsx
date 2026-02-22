@@ -2,7 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Dr. Libby Rhee | Liora Dermatology & Aesthetics",
+  title: "About Dr. Libby Rhee — Board-Certified Dermatologist NYC",
   description:
     "Board-certified dermatologist Dr. Libby Rhee brings over 15 years of experience in cosmetic and medical dermatology. Clinical Instructor at Mount Sinai.",
 };

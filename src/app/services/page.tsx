@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Services | Liora Dermatology & Aesthetics",
+  title: "Dermatology Services — Cosmetic, Medical & Surgical",
   description:
     "Explore our full range of cosmetic, medical, surgical, and pediatric dermatology services on the Upper East Side.",
 };
