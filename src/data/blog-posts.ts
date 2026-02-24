@@ -10,6 +10,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Your skin changes with every decade of life. Here's a board-certified dermatologist's guide to what to prioritize at every age — from prevention in your 20s to renewal in your 50s and beyond.",
     metaDescription: "NYC dermatologist Dr. Libby Rhee shares the best skincare routine for every decade. Learn what products and treatments your skin needs in your 20s, 30s, 40s, 50s, and beyond.",
     keywords: ["skincare by age", "skincare in your 20s", "skincare in your 30s", "skincare in your 40s", "skincare in your 50s", "anti-aging skincare", "NYC dermatologist", "dermatologist skincare advice", "skincare routine by decade"],
+    image: "/images/blog-skincare-decades.png",
     content: `
       <p>One of the most common questions I get from patients is: <strong>"What should I be doing for my skin at my age?"</strong> It's a great question, because your skin's needs genuinely shift with every decade of life.</p>
 
