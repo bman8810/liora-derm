@@ -2,6 +2,132 @@ import { BlogPost } from "@/lib/blog";
 
 export const blogPosts: BlogPost[] = [
   {
+    title: "Skincare by Decade: What Your Skin Needs in Your 20s, 30s, 40s, 50s & Beyond",
+    slug: "skincare-by-decade",
+    date: "2026-02-10",
+    author: "Dr. Libby Rhee, DO, MS, FAAD",
+    category: "Skincare Tips",
+    excerpt: "Your skin changes with every decade of life. Here's a board-certified dermatologist's guide to what to prioritize at every age — from prevention in your 20s to renewal in your 50s and beyond.",
+    metaDescription: "NYC dermatologist Dr. Libby Rhee shares the best skincare routine for every decade. Learn what products and treatments your skin needs in your 20s, 30s, 40s, 50s, and beyond.",
+    keywords: ["skincare by age", "skincare in your 20s", "skincare in your 30s", "skincare in your 40s", "skincare in your 50s", "anti-aging skincare", "NYC dermatologist", "dermatologist skincare advice", "skincare routine by decade"],
+    content: `
+      <p>One of the most common questions I get from patients is: <strong>"What should I be doing for my skin at my age?"</strong> It's a great question, because your skin's needs genuinely shift with every decade of life.</p>
+
+      <p>What worked in your 20s won't cut it in your 40s. And what feels like overkill at 25 becomes essential at 35. Here's my decade-by-decade guide to building a skincare routine that evolves with you.</p>
+
+      <h2>Your 20s: Build the Foundation</h2>
+
+      <p>Your 20s are about <strong>prevention</strong>. Your skin is at its peak right now — collagen production is strong, cell turnover is fast, and elasticity is high. The goal is to protect what you have.</p>
+
+      <h3>The Essentials</h3>
+      <ul>
+        <li><strong>Sunscreen every single day.</strong> SPF 30+ broad-spectrum, rain or shine. This is the single most important anti-aging step you'll ever take. UV damage is cumulative and starts years before you see it.</li>
+        <li><strong>A gentle cleanser.</strong> Avoid stripping your skin barrier. Foaming cleansers with sulfates can do more harm than good at any age.</li>
+        <li><strong>Antioxidant serum (Vitamin C).</strong> Start a morning Vitamin C serum to neutralize free radical damage from pollution and UV exposure. This pairs beautifully with sunscreen.</li>
+        <li><strong>Moisturizer.</strong> Even oily skin needs hydration. Look for lightweight, non-comedogenic formulas.</li>
+      </ul>
+
+      <h3>Consider Starting</h3>
+      <ul>
+        <li><strong>Retinol.</strong> A low-concentration retinol (0.25-0.5%) 2-3 times per week. It's never too early to start — retinoids boost cell turnover and prevent early fine lines.</li>
+        <li><strong>Eye cream.</strong> The skin around your eyes is the thinnest on your body. A hydrating eye cream prevents early crow's feet.</li>
+      </ul>
+
+      <h3>In-Office Treatments</h3>
+      <ul>
+        <li>Annual skin checks (yes, even in your 20s)</li>
+        <li>HydraFacials for a glow boost</li>
+        <li>Chemical peels for acne management</li>
+      </ul>
+
+      <h3>Common Mistakes in Your 20s</h3>
+      <p>Skipping sunscreen, over-exfoliating, and ignoring moisturizer because "I'm not old enough for that." You're building habits now that your 40-year-old self will thank you for.</p>
+
+      <h2>Your 30s: Get Strategic</h2>
+
+      <p>Your 30s are when you'll start noticing the first signs of aging — fine lines around the eyes, early sun spots, and skin that doesn't bounce back quite as fast. Collagen production begins declining around age 25, losing roughly <strong>1% per year</strong>. By your mid-30s, you're feeling it.</p>
+
+      <h3>Level Up Your Routine</h3>
+      <ul>
+        <li><strong>Upgrade to a prescription-strength retinoid.</strong> If you've been using over-the-counter retinol, talk to your dermatologist about tretinoin or tazarotene. The clinical results are significantly stronger.</li>
+        <li><strong>Add a hyaluronic acid serum.</strong> As your skin's natural moisture barrier weakens, hyaluronic acid holds up to 1,000x its weight in water, keeping skin plump.</li>
+        <li><strong>Peptide-rich products.</strong> Peptides signal your skin to produce more collagen — think of them as a gentle nudge to your aging cells.</li>
+        <li><strong>Niacinamide.</strong> Addresses pore size, texture, and early pigmentation. A multitasking powerhouse.</li>
+      </ul>
+
+      <h3>In-Office Treatments to Consider</h3>
+      <ul>
+        <li><strong>Preventive Botox ("Baby Botox").</strong> Small doses in expression lines (forehead, crow's feet) can prevent deep wrinkles from forming. This is the decade to start if you're interested.</li>
+        <li><strong>Chemical peels.</strong> Medium-depth peels address early sun damage and uneven tone.</li>
+        <li><strong>Laser treatments.</strong> Early laser interventions for pigmentation or broken capillaries.</li>
+        <li><strong>Microneedling.</strong> Stimulates collagen production naturally.</li>
+      </ul>
+
+      <h3>The 30s Wake-Up Call</h3>
+      <p>Many patients come to me in their 30s saying, "I wish I'd started earlier." The good news? Starting now still makes a massive difference. Consistent retinoid use, sun protection, and strategic treatments can reverse early damage and slow the clock significantly.</p>
+
+      <h2>Your 40s: Restore and Maintain</h2>
+
+      <p>The 40s bring more visible changes: deeper lines, loss of volume (especially in the cheeks and under-eye area), more pronounced sun damage, and changes in skin texture. Hormonal shifts may also affect your skin, particularly during perimenopause.</p>
+
+      <h3>Intensify Your Routine</h3>
+      <ul>
+        <li><strong>Richer moisturizers.</strong> Your skin barrier is thinner now. Ceramide-rich formulas help restore and protect it.</li>
+        <li><strong>Growth factor serums.</strong> These advanced products support your skin's natural repair processes and boost collagen at a cellular level.</li>
+        <li><strong>Targeted eye treatments.</strong> Look for peptides and retinol specifically formulated for the delicate eye area.</li>
+        <li><strong>Neck and chest care.</strong> These areas show aging fast and are often neglected. Extend your retinoid, sunscreen, and antioxidant routine below the jawline.</li>
+      </ul>
+
+      <h3>In-Office Treatments</h3>
+      <ul>
+        <li><strong>Dermal fillers.</strong> Hyaluronic acid fillers (Juvederm, Restylane) restore lost volume naturally. Strategic placement can take years off without looking "done."</li>
+        <li><strong>Sofwave.</strong> Non-invasive skin tightening that stimulates deep collagen. Perfect for mild-to-moderate laxity in the face, neck, and jawline.</li>
+        <li><strong>IPL (Intense Pulsed Light).</strong> Addresses sun spots, broken blood vessels, and overall skin tone.</li>
+        <li><strong>Regular Botox.</strong> Maintaining smooth expression lines becomes a routine touchup.</li>
+        <li><strong>PRP (Platelet-Rich Plasma).</strong> Uses your body's own growth factors to rejuvenate skin from within.</li>
+      </ul>
+
+      <h2>Your 50s: Renew and Embrace</h2>
+
+      <p>The 50s and beyond are about <strong>renewal</strong>. Menopause causes a significant drop in estrogen, which accelerates collagen loss, reduces skin elasticity, and increases dryness. But this is also the decade where modern dermatology shines — the treatments available today can genuinely transform how you look and feel.</p>
+
+      <h3>Adjust Your Routine</h3>
+      <ul>
+        <li><strong>Switch to cream cleansers.</strong> Foaming cleansers strip already-dry skin. Cream and oil-based cleansers maintain moisture.</li>
+        <li><strong>Layer your hydration.</strong> Hyaluronic acid serum + moisturizer + facial oil. Your skin needs all the hydration it can get.</li>
+        <li><strong>Continue retinoids.</strong> Don't stop — but you may need to adjust frequency if skin becomes more sensitive.</li>
+        <li><strong>Sunscreen remains non-negotiable.</strong> UV protection prevents further damage and allows repair treatments to work better.</li>
+      </ul>
+
+      <h3>In-Office Treatments</h3>
+      <ul>
+        <li><strong>Combination approaches.</strong> The most effective results come from combining treatments — fillers for volume, Botox for lines, laser for texture, and Sofwave for tightening.</li>
+        <li><strong>Fractional laser resurfacing.</strong> More intensive treatments can address deeper wrinkles, significant sun damage, and overall skin quality.</li>
+        <li><strong>Sculptra.</strong> A collagen stimulator that works gradually over months for natural-looking volume restoration.</li>
+        <li><strong>Skin cancer screenings.</strong> Regular full-body skin checks become increasingly important. Cumulative sun exposure means higher risk.</li>
+      </ul>
+
+      <h2>60s and Beyond: Celebrate Your Skin</h2>
+
+      <p>Skincare doesn't stop at 60. In fact, many of my most dedicated patients are in their 60s and 70s, and they look incredible. The focus shifts to:</p>
+
+      <ul>
+        <li><strong>Comfort and barrier repair.</strong> Rich, nourishing products that keep skin comfortable and healthy.</li>
+        <li><strong>Maintenance treatments.</strong> Regular touchups with fillers, Botox, and gentle resurfacing keep you looking refreshed.</li>
+        <li><strong>Skin health.</strong> Annual skin cancer screenings, treatment of precancerous lesions, and vigilant sun protection.</li>
+        <li><strong>Enjoyment.</strong> You've earned every line. The goal isn't to look 30 — it's to look like the best version of yourself, with healthy, glowing skin.</li>
+      </ul>
+
+      <h2>The Bottom Line: Start Where You Are</h2>
+
+      <p>Whether you're 22 or 62, the best time to start taking care of your skin is <strong>now</strong>. It's never too early and never too late. The basics — sunscreen, retinoids, moisturizer, antioxidants — work at every age. The specifics just change.</p>
+
+      <p>If you're not sure where your skin is or what it needs, that's exactly what a dermatologist is for. <strong>Book a consultation</strong> and we'll build a personalized plan based on your skin, your goals, and your decade.</p>
+
+      <p><em>Dr. Libby Rhee is a board-certified dermatologist and founder of <a href="/">Liora Dermatology & Aesthetics</a> on the Upper East Side. She specializes in both medical and cosmetic dermatology for all skin types.</em></p>
+    `,
+  },
+  {
     title: "Spring Skin Reset: A Dermatologist's Guide to Transitioning Your Skincare Routine",
     slug: "spring-skin-reset-guide",
     date: "2026-02-17",
