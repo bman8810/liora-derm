@@ -246,6 +246,62 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Awards & Recognition */}
+      <section className="py-20 bg-cream">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <p className="text-xs tracking-[0.3em] uppercase text-gold mb-4">
+              Awards &amp; Recognition
+            </p>
+            <h2 className="font-serif text-4xl text-soft-black">
+              Recognized Among the Best
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Newsweek */}
+            <div className="bg-white p-8 rounded-xl text-center shadow-sm">
+              <p className="text-xs tracking-[0.2em] uppercase text-neutral-400 mb-2">
+                Newsweek &times; Statista
+              </p>
+              <p className="font-serif text-2xl text-soft-black">
+                #8 in New York
+              </p>
+              <p className="text-sm text-neutral-500 mt-2">
+                America&apos;s Best Cosmetic Dermatologists 2022
+              </p>
+              <a
+                href="https://rankings.newsweek.com/americas-best-cosmetic-dermatologists-2022/new-york"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-4 text-xs tracking-wide uppercase text-gold hover:text-gold-dark transition-colors"
+              >
+                View Ranking &rarr;
+              </a>
+            </div>
+            {/* US News */}
+            <div className="bg-white p-8 rounded-xl text-center shadow-sm">
+              <p className="text-xs tracking-[0.2em] uppercase text-neutral-400 mb-2">
+                U.S. News &amp; World Report
+              </p>
+              <p className="font-serif text-2xl text-gold">5.0 &#9733;</p>
+              <p className="text-sm text-neutral-500 mt-2">
+                1,923 Patient Reviews
+              </p>
+            </div>
+            {/* Zocdoc */}
+            <div className="bg-white p-8 rounded-xl text-center shadow-sm">
+              <p className="text-xs tracking-[0.2em] uppercase text-neutral-400 mb-2">
+                Zocdoc Verified
+              </p>
+              <p className="font-serif text-2xl text-gold">4.6 &#9733;</p>
+              <p className="text-sm text-neutral-500 mt-2">
+                1,281 Patient Reviews
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Insurance */}
       <section className="py-16 bg-cream">
         <div className="max-w-5xl mx-auto px-6 text-center">

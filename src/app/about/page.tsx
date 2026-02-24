@@ -138,6 +138,50 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Awards */}
+      <section className="py-20 bg-cream">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <p className="text-xs tracking-[0.3em] uppercase text-gold mb-4">
+              Awards &amp; Recognition
+            </p>
+            <h2 className="font-serif text-3xl text-soft-black">
+              Nationally Recognized
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-white p-8 rounded-xl text-center">
+              <p className="text-xs tracking-[0.2em] uppercase text-neutral-400 mb-3">
+                Newsweek &times; Statista 2022
+              </p>
+              <p className="font-serif text-2xl text-soft-black">
+                America&apos;s Best Cosmetic Dermatologists
+              </p>
+              <p className="text-gold font-serif text-lg mt-2">#8 in New York State</p>
+              <a
+                href="https://rankings.newsweek.com/americas-best-cosmetic-dermatologists-2022/new-york"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-4 text-xs tracking-wide uppercase text-gold hover:text-gold-dark transition-colors"
+              >
+                View Full Ranking &rarr;
+              </a>
+            </div>
+            <div className="bg-white p-8 rounded-xl text-center">
+              <p className="text-xs tracking-[0.2em] uppercase text-neutral-400 mb-3">
+                Clinical Appointment
+              </p>
+              <p className="font-serif text-2xl text-soft-black">
+                Mount Sinai
+              </p>
+              <p className="text-sm text-neutral-500 mt-2">
+                Clinical Instructor of Dermatology, Icahn School of Medicine
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-24 bg-soft-black text-center">
         <div className="max-w-2xl mx-auto px-6">
