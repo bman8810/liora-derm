@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "Cosmetic Dermatology | Liora Dermatology & Aesthetics",
+  title: "Cosmetic Dermatology",
   description:
     "From mole removal to advanced skin rejuvenation, our cosmetic dermatologists create customized treatment plans for your skin goals.",
 };

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "Sofwave | Liora Dermatology & Aesthetics",
+  title: "Sofwave",
   description:
     "Sofwave is an FDA-cleared, non-invasive ultrasound treatment for fine lines, wrinkles, and skin tightening with no downtime.",
 };

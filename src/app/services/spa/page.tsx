@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Spa Menu | Liora Dermatology & Aesthetics",
+  title: "Spa Menu",
   description:
     "Medical-grade spa services on the Upper East Side. HydraFacial, deep pore cleansing facials, microneedling, chemical peels, LED therapy, and more. Book today.",
   keywords: [

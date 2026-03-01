@@ -4,7 +4,7 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "The Liora Journal — Skincare Tips & Dermatology Insights",
+  title: "The Liora Journal — Skincare Tips & Insights",
   description:
     "Expert skincare tips, treatment insights, and dermatology news from Dr. Libby Rhee on the Upper East Side.",
 };

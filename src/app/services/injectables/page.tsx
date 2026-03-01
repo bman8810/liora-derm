@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "Injectables | Liora Dermatology & Aesthetics",
+  title: "Injectables",
   description:
     "Non-surgical skin rejuvenation with Botox, dermal fillers, and other injectable treatments at Liora Dermatology on the Upper East Side.",
 };

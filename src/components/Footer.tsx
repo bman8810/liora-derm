@@ -24,19 +24,19 @@ export default function Footer() {
             </p>
             <div className="space-y-2">
               {[
-                "Cosmetic Dermatology",
-                "Injectables",
-                "Lasers",
-                "Sofwave",
-                "Medical Dermatology",
-                "Spa Services",
+                { label: "Cosmetic Dermatology", href: "/services/cosmetic" },
+                { label: "Injectables", href: "/services/injectables" },
+                { label: "Lasers", href: "/services/lasers" },
+                { label: "Sofwave", href: "/services/sofwave" },
+                { label: "Medical Dermatology", href: "/services/medical" },
+                { label: "Spa Services", href: "/services/spa" },
               ].map((s) => (
                 <Link
-                  key={s}
-                  href={`/services/${s.toLowerCase().replace(/ /g, "-")}`}
+                  key={s.label}
+                  href={s.href}
                   className="block text-sm text-neutral-400 hover:text-white transition-colors"
                 >
-                  {s}
+                  {s.label}
                 </Link>
               ))}
             </div>
