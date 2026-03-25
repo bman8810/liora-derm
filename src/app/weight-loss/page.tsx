@@ -235,21 +235,11 @@ export default function WeightLossPage() {
             lasting weight loss.
           </p>
           <a
-            href="https://www.zocdoc.com/practice/liora-dermatology-aesthetics-168820"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="tel:+12124334569"
             className="inline-block mt-8 bg-gold hover:bg-gold-dark text-white text-sm tracking-wide uppercase px-10 py-4 rounded-full transition-colors"
           >
-            Book with ZocDoc
+            Call 212.433.GLOW (4569)
           </a>
-          <p className="mt-6">
-            <a
-              href="tel:+12124334569"
-              className="text-neutral-400 hover:text-white transition-colors text-sm"
-            >
-              Or call: 212.433.GLOW (4569)
-            </a>
-          </p>
         </div>
       </section>
     </>
