@@ -13,6 +13,7 @@ const services = [
   { name: "Surgical Dermatology", href: "/services/surgical" },
   { name: "Pediatric Dermatology", href: "/services/pediatric" },
   { name: "Spa Services", href: "/services/spa" },
+  { name: "Weight Loss", href: "/weight-loss" },
 ];
 
 export default function Header() {

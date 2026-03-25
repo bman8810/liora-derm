@@ -56,6 +56,12 @@ const services = [
     description:
       "Medical-grade aesthetic treatments including facials, laser skin treatments, and injectables to enhance your natural beauty.",
   },
+  {
+    href: "/weight-loss",
+    title: "Weight Loss & Wellness",
+    description:
+      "Physician-led medical weight management using FDA-approved GLP-1 medications. Cash-pay, no insurance required.",
+  },
 ];
 
 export default function ServicesPage() {
